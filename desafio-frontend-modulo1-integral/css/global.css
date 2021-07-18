@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&family=Public+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.container{
+    padding: 0px 160px;
+   
+    /* height: 270vh; */
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+/* ========= HEADER SECTION ========= */
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    font-family:'Public Sans', sans-serif;
+}
+
+nav{
+  
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color:#33323D;
+    transition: 0.5s;
+}
+
+nav a span{
+    color: #5FB4A2;
+}
+
+nav a:hover{
+     color: #5FB4A2;
+}
+
+/* ======== IMAGEM PRINCIPAL SECTION ======== */
+
+
+
+/* ======== SECTION ABOUT ME ======== */
+
+.about-section{
+   
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    line-height: 1.5;
+}
+
+.about-section__img img{
+    width: 510px;
+    height: 600px;
+}
+
+.text__about-me{
+    
+    padding: 50px;
+    padding-left: 120px;
+   
+    
+}
+
+.text__about-me h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.text__about-me p{
+    margin-bottom: 30px;
+}
+
+.btn__about-me{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.btn__about-me a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    border: 2px solid gray;
+    
+    width: 215px;
+    padding: 18px 20px;
+    transition: 0.8s;
+}
+
+.btn__about-me a:hover{
+    color: white;
+    background-color: #33323D;
+}
+
+
+.contact{
+   
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.contact__text{
+    width: 400px;
+    
+    font-family: 'Ibarra Real Nova', serif;
+    color: #2c2b33;
+    
+}
+
+.contact__btn{
+    
+    text-align: center;
+   
+    
+}
+
+.contact__btn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    border: 2px solid gray;
+    
+    width: 185px;
+    
+    padding: 18px 50px;
+    transition: 0.8s;
+}
+
+.contact__btn a:hover{
+    color: white;
+    background-color: #33323D;
+    
+}
+
+
+
+/* ====== FOOTER LOGO ===== */
+
+footer{
+    
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    padding: 25px 0;
+    font-family:'Public Sans', sans-serif;
+    
+    background-color: #33323D;
+}
+
+.footer__logo{
+    margin-left: 90px;
+    
+}
+
+.nav__footer{
+    margin-left: 25px;
+   
+    
+}
+.nav__footer a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__sociais{
+  margin-left: 650px;
+  
+}
+
+.footer__sociais img{
+    margin-left: 10px;
+}
+
+

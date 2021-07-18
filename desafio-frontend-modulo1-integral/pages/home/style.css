@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&family=Public+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.container{
+    padding: 0px 160px;
+    
+    /* height: 270vh; */
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+/* ========= HEADER SECTION ========= */
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    font-family:'Public Sans', sans-serif;
+}
+
+nav{
+  
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color:#33323D;
+}
+
+nav a span{
+    color: #5FB4A2;
+}
+
+nav a:hover{
+     color: #5FB4A2;
+}
+
+/* ======== IMAGEM PRINCIPAL SECTION ======== */
+
+.principal{
+    
+    height: 550px;
+    background-repeat: no-repeat;
+    /* background-position: cover; */
+    background-size: 1100px 550px;
+    background-image: url("/desafio-frontend-modulo1-integral/assets/home/image-homepage-hero.jpg");
+    display: flex;
+    
+    align-items: flex-end;
+}
+
+.principal__quote{
+   
+    width: 390px;
+    height: 328px;
+    background: white;
+    padding: 35px 20px;
+    font-size: 30px; 
+    color:#33323D;
+    font-weight: 700;
+}
+
+.btn__quote button{
+    all: unset;
+    /* padding: 5px; */
+    width: 200px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #203A4C;
+    color: white;
+    margin-top: 25px;
+    margin-left: -20px;
+    cursor: pointer;
+    transition: 0.6s;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+button .span-btn{
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url("/desafio-frontend-modulo1-integral/assets/icons/down-arrows.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 50px;
+   
+}
+.btn__quote button:hover {
+  background-color: #5FB4A2;
+   
+}
+.btn__quote button:hover .span-btn{
+    background-image: url("/desafio-frontend-modulo1-integral/assets/icons/down-arrows2.svg");
+}
+
+
+
+.btn__quote button a{
+    width: 150px;
+    margin-left: -40px;
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+.btn__quote button p{
+     margin-left: 42px;
+   
+   
+}
+
+
+
+.btn__quote button img{
+    padding: 8px;
+    background-color: #1d3444;
+}
+
+/* ======== SECTION ABOUT ME ======== */
+
+.about-section{
+    border-top: 1px solid rgba(128, 128, 128, 0.671);
+    margin-top: 90px;
+    height: 600px;
+    display: flex;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    line-height: 1.5;
+    padding-top: 60px;
+}
+
+.about-me img{
+    width: 510px;
+    height: 600px;
+}
+
+.text__about-me{
+    
+    padding: 50px;
+    padding-left: 120px;
+   
+    
+}
+
+.text__about-me h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.text__about-me p{
+    margin-bottom: 30px;
+}
+
+
+
+.contact__text{
+    width: 400px;
+    
+    font-family: 'Ibarra Real Nova', serif;
+    color: #2c2b33;
+    
+}
+
+
+
+
+/* ====== FOOTER LOGO ===== */
+
+footer{
+    
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    padding: 25px 0;
+    font-family:'Public Sans', sans-serif;
+   
+    background-color: #33323D;
+}
+
+.footer__logo{
+    margin-left: 90px;
+    
+}
+
+.nav__footer{
+    margin-left: 25px;
+   
+    
+}
+.nav__footer a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__sociais{
+  margin-left: 650px;
+}
+

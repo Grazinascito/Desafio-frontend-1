@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&family=Public+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.container{
+    padding: 0px 160px;
+   
+    /* height: 270vh; */
+    font-family:'Public Sans', sans-serif;
+
+    font-weight: 400;
+    line-height: 1.5;
+    color: #33323de8;
+    
+}
+
+/* ========= HEADER SECTION ========= */
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    font-family:'Public Sans', sans-serif;
+}
+
+nav{
+  
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color:#33323D;
+}
+
+nav a span{
+    color: #5FB4A2;
+}
+
+nav a:hover{
+     color: #5FB4A2;
+}
+
+/* ====== HERO SECTION ====== */
+
+.main-section{
+   
+    display: flex;
+    margin-top: 65px;
+}
+.about-project-one{
+    border-top: 1px solid rgba(128, 128, 128, 0.623);
+    width: 350px;
+   
+    margin-right: 80px;
+}
+
+.about-project-one p{
+    margin-top: 15px;
+}
+.about-project-one h1{
+    font-size: 35px;
+    margin-top: 30px;
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', 'serif';
+}
+.about-project-two{
+    width: 400px;
+
+}
+
+.about-project-two p{
+    margin-bottom: 40px;
+}
+
+.about-project-two h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', 'serif';
+}
+
+.about-project-one span{
+    color: #57ac99;
+    font-weight: bold;
+}
+
+
+.hero-section img{
+    width: 1028px;
+    height: 500px;
+}
+
+.about-project-two img{
+    width: 600px;
+    height: 450px;
+}
+
+/* ===== hero animation ===== */
+.hero-section:hover {
+    animation: hero 7s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes hero {
+    20% {background-size: 150%; background-position: 10% 20%;}
+    60% {background-size: 160%; background-position: 10% 180%;}
+    80% {background-size: 150%; background-position: 100% -20%;}
+    100% {background-size: 160%; background-position: 90% 180%;}
+}
+
+/* ======== btn ========= */
+.about-project__btn{
+    margin-top: 30px;
+}
+.about-project__btn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    border: 2px solid gray;
+    
+    width: 185px;
+    
+    padding: 18px 50px;
+    transition: 0.8s;
+   
+}
+
+
+.about-project__btn a:hover{
+    color: white;
+    background-color: #33323D;
+    
+}
+
+/* ===== SCROLLING SECTION ===== */
+
+.scrolling{
+    display: flex;
+    border-top: 1px solid rgba(128, 128, 128, 0.623);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+    justify-content: space-between;
+    padding:25px 0px;
+    margin-top: 30px;
+}
+
+.scroll__first{
+    display: flex;
+}
+
+.scroll__second{
+    display: flex;
+}
+
+.scroll-img {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin: 0px 15px;
+}
+/* ====== CONTACT ====== */
+
+
+.btn__about-me a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+}
+
+.contact{
+   
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.contact__text{
+    width: 400px;
+    
+    font-family: 'Ibarra Real Nova', serif;
+    color: #2c2b33;
+    
+}
+
+.contact__btn{
+   
+    text-align: center;
+   
+    
+}
+
+.contact__btn a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    border: 2px solid gray;
+    
+    width: 185px;
+    
+    padding: 18px 50px;
+    transition: 0.8s;
+}
+
+.contact__btn a:hover{
+    color: white;
+    background-color: #33323D;
+    
+}
+
+
+/* ====== FOOTER LOGO ===== */
+
+footer{
+    
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    padding: 25px 0;
+    font-family:'Public Sans', sans-serif;
+    
+    background-color: #33323D;
+}
+
+.footer__logo{
+    margin-left: 90px;
+    
+}
+
+.nav__footer{
+    margin-left: 25px;
+   
+    
+}
+.nav__footer a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__sociais{
+  margin-left: 650px;
+  
+}

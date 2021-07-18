@@ -1,0 +1,8 @@
+.hero-section {
+    background-image: url("/desafio-frontend-modulo1-integral/assets/portfolio/bookmark/image-bookmark-hero.jpg");
+ 
+    width: 1028px;
+    height: 500px;
+    cursor: pointer;
+
+}

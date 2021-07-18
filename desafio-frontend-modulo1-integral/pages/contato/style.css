@@ -1,0 +1,82 @@
+
+
+.about-section{
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: -25px;
+   
+    
+   
+}
+
+
+.text__contact,.title__contact,.input__contact{
+    
+    margin-top: 40px;
+    
+}
+
+h2{
+    font-family: 'Ibarra Real Nova',serif;
+    font-size: 30px;
+}
+
+.text__contact{
+    width: 600px;
+}
+
+.contact__sociais{
+    margin-top: 50px;
+}
+
+.input__contact{
+    width: 600px;
+    height: 400px;
+    
+    
+    
+}
+
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    width: 550px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: #33323d3f;
+}
+
+.mensagem input{
+   height: 100px;
+   
+}
+
+.btn a{
+   
+    color: white;
+    text-decoration: none;
+  
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
+.btn{
+    margin-top: 60px;
+    background-color: #203A4C;
+    
+    text-align: center;
+    
+    padding: 12px;
+    width: 200px;
+    
+}
+
